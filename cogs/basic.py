@@ -82,7 +82,8 @@ class Basic(commands.Cog):
                     'MilkyBella',
                     'Sweetest Sweets',
                     'Gitchep',
-                    'Dario Fulminante']
+                    'Dario Fulminante',
+                    'Mat4k9']
         embed=discord.Embed(title="Random Offender", description=f'A random offender is: **{random.choice(responses)}**', color=0xf7f7f7)
         await ctx.send(embed=embed)
 
